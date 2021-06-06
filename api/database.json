@@ -1,0 +1,26 @@
+{
+    "plumbers": [],
+    "completions": [],
+    "requests": [{
+            "id": 1,
+            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+            "address": "34445 Bianka Ports",
+            "budget": 400,
+            "neededBy": "2021-08-27"
+        },
+        {
+            "description": "leaky sink",
+            "address": "300 Abby dr.",
+            "budget": "200",
+            "neededBy": "2021-06-11",
+            "id": 2
+        },
+        {
+            "description": "Clogged Kitchen Sink",
+            "address": "4026 Harding Pike",
+            "budget": "150",
+            "neededBy": "2021-06-15",
+            "id": 3
+        }
+    ]
+}
