@@ -42,3 +42,15 @@ export const sendRequest = (userServiceRequest) => {
 export const getRequests = () => {
     return applicationState.requests.map(request => ({...request }))
 }
+
+
+// HTTP DELETE method
+// When you use the DELETE method on an HTTP request, you must identify a single resource.
+export const deleteRequest = (id) => {
+    return fetch(`${API}/requests/${id}`, { method: "DELETE" })
+        .then(
+            () => {
+                mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
+            }
+        )
+}
