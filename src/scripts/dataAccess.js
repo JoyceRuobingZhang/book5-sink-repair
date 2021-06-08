@@ -6,20 +6,19 @@ const applicationState = {
 const API = "http://localhost:8088"
 
 export const fetchRequests = () => {
-    /* it’s pretty common to 🟡🟡return the asynchronous call anyways 
-    so that if something does need to know when a request has finished, 
-    it can await that (because the Promise is returned out of the functions)*/
-    return fetch(`${API}/requests`)
-        .then(response => response.json())
-        .then(
-            (serviceRequests) => {
-                // Store the external state in application state
-                applicationState.requests = serviceRequests
-            }
-        )
-}
-
-// The POST method on any HTTP request means "Hey API!! I want you to create something new!"
+        /* it’s pretty common to 🟡🟡return the asynchronous call anyways 
+        so that if something does need to know when a request has finished, 
+        it can await that (because the Promise is returned out of the functions)*/
+        return fetch(`${API}/requests`)
+            .then(response => response.json())
+            .then(
+                (serviceRequests) => {
+                    // Store the external state in application state
+                    applicationState.requests = serviceRequests
+                }
+            )
+    }
+    // The POST method on any HTTP request means "Hey API!! I want you to create something new!"
 const mainContainer = document.querySelector("#container")
 export const sendRequest = (userServiceRequest) => {
     const fetchOptions = {
