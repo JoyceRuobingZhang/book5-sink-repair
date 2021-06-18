@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 @import "form.css";
+@import "request.css";
 
 /* 注意别忘了@import最后的分号！！ */
 
@@ -7,7 +8,11 @@
 /*Typography
 --------------------------------------------------------------*/
 
-body,
+body {
+    margin: 1rem;
+    font-family: "Comfortaa", Arial, sans-serif;
+}
+
 button,
 input,
 select,

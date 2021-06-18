@@ -1,9 +1,4 @@
-// export const ServiceForm = () => {
-//     let html = ""
-
-//     return html
-// }
-
+import { sendRequest } from "./dataAccess.js"
 
 export const ServiceForm = () => {
     let html = `
@@ -32,7 +27,7 @@ export const ServiceForm = () => {
     return html
 }
 
-import { sendRequest } from "./dataAccess.js"
+
 const mainContainer = document.querySelector("#container")
 
 mainContainer.addEventListener("click", clickEvent => {

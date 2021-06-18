@@ -1,6 +1,28 @@
 {
-  "plumbers": [],
-  "completions": [],
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": "1",
+      "plumberId": "1",
+      "date_created": "Thu Jun 17 2021 23:51:44 GMT-0500 (Central Daylight Time)",
+      "id": 1
+    },
+    {
+      "requestId": "4",
+      "plumberId": "2",
+      "date_created": "Thu Jun 17 2021 23:54:47 GMT-0500 (Central Daylight Time)",
+      "id": 2
+    }
+  ],
   "requests": [
     {
       "id": 1,
@@ -15,6 +37,41 @@
       "budget": "200",
       "neededBy": "2021-06-11",
       "id": 2
+    },
+    {
+      "description": "low water pressure",
+      "address": "hkjh",
+      "budget": "99",
+      "neededBy": "2021-06-10",
+      "id": 3
+    },
+    {
+      "description": "slow draining",
+      "address": "567 heaven dr.",
+      "budget": "120",
+      "neededBy": "2021-06-25",
+      "id": 4
+    },
+    {
+      "description": "jammed garbage disposal",
+      "address": "567 heaven dr.",
+      "budget": "120",
+      "neededBy": "2021-06-25",
+      "id": 5
+    },
+    {
+      "description": "blocked sink",
+      "address": "999 abby dr.",
+      "budget": "80",
+      "neededBy": "2021-06-19",
+      "id": 6
+    },
+    {
+      "description": "moldy sink pipes",
+      "address": "999 happy dr.",
+      "budget": "80",
+      "neededBy": "2021-06-20",
+      "id": 7
     }
   ]
 }

@@ -27,7 +27,12 @@ export const SinkRepair = () => {
 
         <section class="serviceRequests">
             <h2>Service Requests</h2>
+           <ul class="requests-header">
+           <li class="description">Description</li>
+           <li class="completed-by">Completed By</li>
+           </ul>
             ${Requests()}
+         
         </section>
     `
 }

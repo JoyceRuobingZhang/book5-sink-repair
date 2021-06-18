@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+}
+
+.requests-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 2rem 0.5rem 2rem;
+    padding: 1rem;
+    background-color: rgb(197, 209, 243);
+}
+
+.completed-by {
+    margin-right: 6rem;
+}
+
+.completed {
+    background-color: rgb(252, 235, 230);
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.incompleted {
+    background-color: rgb(224, 221, 221);
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.description {
+    margin-left: 3%;
+}
+
+.request-state {
+    display: flex;
+}
+
+.plumber-options {
+    margin-right: 4rem;
+}
+
+.request__delete {
+    background-color: rgb(115, 113, 235);
+    color: rgb(234, 230, 245);
+}
